@@ -1,0 +1,89 @@
+.topo { 
+    background:rgb(249, 203, 205)
+}
+a, ul, .pedido, .produtos {
+    display:inline-block;
+}
+.title {
+    margin-left:530px; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+.foto {
+    margin-left: 50px;
+}
+.interface {
+    width: auto;
+    margin-top: 30px;
+    border: 5px solid rgb(249,203,205); 
+    height: 500px;
+    box-shadow: 5px 10px grey;
+    position: relative;
+    
+
+}
+h3,h4 {
+
+    text-align: center;
+
+}
+.doce {
+    margin-left: 50px;
+}
+.imagem {
+      position: relative;
+      width: 200px;
+      top: 150px;
+      left: 200px;
+
+}
+.brigadeiro {
+    position: absolute;
+    display: inline-block;
+    left: 675px;
+    top: 40px;
+}
+#botao {
+    position: absolute;
+    right: 200px;
+}
+#botao1 {
+    position: relative;
+}
+.botao,.botao1 {
+    background-color: rgb(251,203,205);
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 10px;
+}
+.botao:hover {
+    background-color: rgb(213, 37, 116);
+    color:white;
+    transform: scale(1.5);
+    transition: all 1.0s;
+}
+.nome,.sobrenome,.e-mail,.celular,.endereço,.CEP {
+    margin: 10px;
+    margin-left: 12px;
+}
+.pedido {
+    position: absolute;
+    left: 200px;
+    top: 80px;
+}
+.produtos {
+    align-self: center;
+    position: absolute;
+    top: 160px;
+    right: 300px;
+}
+li {
+    margin: 5px;
+    margin-left: 10px;   
+}
+.QTD {
+    width: 50px;
+    margin-left: 10px;
+}
